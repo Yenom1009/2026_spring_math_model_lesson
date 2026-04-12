@@ -1,0 +1,27 @@
+# SVD 图像压缩实验 - 环境依赖配置
+# 使用方式: pip install -r requirements.txt
+
+# 核心数值计算
+numpy>=1.20.0
+
+# 科学计算与信号处理
+scipy>=1.7.0
+
+# 图像处理
+Pillow>=8.0.0
+scikit-image>=0.18.0
+
+# 小波变换
+PyWavelets>=1.1.1
+
+# 数据分析与表格
+pandas>=1.2.0
+
+# 绘图可视化
+matplotlib>=3.3.0
+
+# 进度条显示
+tqdm>=4.50.0
+
+# Web 交互界面
+streamlit>=1.0.0
