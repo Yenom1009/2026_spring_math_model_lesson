@@ -1,0 +1,2489 @@
+[
+  {
+    "session_start": "2026-04-26 15:10:54",
+    "session_end": "2026-04-26 15:12:08",
+    "total_experiments": 52,
+    "results": [
+      {
+        "timestamp": "2026-04-26 15:10:54",
+        "experiment": "Exp1_Parameterization",
+        "curve": "Circle",
+        "method": "Uniform",
+        "metrics": {
+          "rmse_samples": 0.003638862369211757,
+          "max_dev_samples": 0.006295699179221757,
+          "mean_dist_samples": 0.0031478520866211135,
+          "smoothness_energy": 1.2517808236339474e-05,
+          "curvature_std": 0.0016185868261858675,
+          "curvature_max": 1.0032942292219535,
+          "hausdorff": 0.006295699179221757,
+          "mean_dist_true": 0.003141589914537106,
+          "rmse_true": 0.0036348819361458314
+        },
+        "notes": "均匀采样,n=30"
+      },
+      {
+        "timestamp": "2026-04-26 15:10:54",
+        "experiment": "Exp1_Parameterization",
+        "curve": "Circle",
+        "method": "Chord",
+        "metrics": {
+          "rmse_samples": 0.0036388623692116774,
+          "max_dev_samples": 0.006295699179221043,
+          "mean_dist_samples": 0.003147852086621096,
+          "smoothness_energy": 1.251780823633951e-05,
+          "curvature_std": 0.0016185868261878887,
+          "curvature_max": 1.0032942292215554,
+          "hausdorff": 0.006295699179221043,
+          "mean_dist_true": 0.0031415899145365083,
+          "rmse_true": 0.003634881936145317
+        },
+        "notes": "均匀采样,n=30"
+      },
+      {
+        "timestamp": "2026-04-26 15:10:54",
+        "experiment": "Exp1_Parameterization",
+        "curve": "Circle",
+        "method": "Centripetal",
+        "metrics": {
+          "rmse_samples": 0.0036388623692117632,
+          "max_dev_samples": 0.006295699179222076,
+          "mean_dist_samples": 0.003147852086621149,
+          "smoothness_energy": 1.2517808236339545e-05,
+          "curvature_std": 0.0016185868261988463,
+          "curvature_max": 1.0032942292219535,
+          "hausdorff": 0.006295699179222076,
+          "mean_dist_true": 0.003141589914536901,
+          "rmse_true": 0.003634881936145674
+        },
+        "notes": "均匀采样,n=30"
+      },
+      {
+        "timestamp": "2026-04-26 15:10:56",
+        "experiment": "Exp1_Parameterization",
+        "curve": "Heart",
+        "method": "Uniform",
+        "metrics": {
+          "rmse_samples": 0.0597069236494387,
+          "max_dev_samples": 0.10711668973277198,
+          "mean_dist_samples": 0.05102358420932118,
+          "smoothness_energy": 0.016188884775899443,
+          "curvature_std": 1.0292346357871263,
+          "curvature_max": 16.155632606940937,
+          "hausdorff": 0.1080069849198371,
+          "mean_dist_true": 0.05202534722985515,
+          "rmse_true": 0.06217674814040669
+        },
+        "notes": "均匀采样,n=40"
+      },
+      {
+        "timestamp": "2026-04-26 15:10:56",
+        "experiment": "Exp1_Parameterization",
+        "curve": "Heart",
+        "method": "Chord",
+        "metrics": {
+          "rmse_samples": 0.06506279339198615,
+          "max_dev_samples": 0.12490204948211296,
+          "mean_dist_samples": 0.05379406017375732,
+          "smoothness_energy": 0.17574619348590623,
+          "curvature_std": 0.24542619073232988,
+          "curvature_max": 3.80993280406725,
+          "hausdorff": 0.14630507494428058,
+          "mean_dist_true": 0.05547368412730579,
+          "rmse_true": 0.060478534243213845
+        },
+        "notes": "均匀采样,n=40"
+      },
+      {
+        "timestamp": "2026-04-26 15:10:56",
+        "experiment": "Exp1_Parameterization",
+        "curve": "Heart",
+        "method": "Centripetal",
+        "metrics": {
+          "rmse_samples": 0.06150611147419182,
+          "max_dev_samples": 0.10709593227729321,
+          "mean_dist_samples": 0.0532443495384413,
+          "smoothness_energy": 0.023127421553997135,
+          "curvature_std": 1.8281102254158867,
+          "curvature_max": 28.831256865663757,
+          "hausdorff": 0.1518796411016077,
+          "mean_dist_true": 0.052621757751887606,
+          "rmse_true": 0.0573050521451185
+        },
+        "notes": "均匀采样,n=40"
+      },
+      {
+        "timestamp": "2026-04-26 15:10:58",
+        "experiment": "Exp1_Parameterization",
+        "curve": "Star",
+        "method": "Uniform",
+        "metrics": {
+          "rmse_samples": 0.008531046149222964,
+          "max_dev_samples": 0.01672950858650711,
+          "mean_dist_samples": 0.007171957477799332,
+          "smoothness_energy": 0.001239739998504814,
+          "curvature_std": 2.4794398655378824,
+          "curvature_max": 11.80180832296937,
+          "hausdorff": 0.016857796554191836,
+          "mean_dist_true": 0.00717877262242463,
+          "rmse_true": 0.008539309330866883
+        },
+        "notes": "均匀采样,n=50"
+      },
+      {
+        "timestamp": "2026-04-26 15:10:58",
+        "experiment": "Exp1_Parameterization",
+        "curve": "Star",
+        "method": "Chord",
+        "metrics": {
+          "rmse_samples": 0.008253628596747003,
+          "max_dev_samples": 0.01456412372225171,
+          "mean_dist_samples": 0.007112711046875598,
+          "smoothness_energy": 0.0019234103969288491,
+          "curvature_std": 1.9365027456020936,
+          "curvature_max": 12.084910574056448,
+          "hausdorff": 0.01784860623424114,
+          "mean_dist_true": 0.007490556099743849,
+          "rmse_true": 0.008335196534830221
+        },
+        "notes": "均匀采样,n=50"
+      },
+      {
+        "timestamp": "2026-04-26 15:10:58",
+        "experiment": "Exp1_Parameterization",
+        "curve": "Star",
+        "method": "Centripetal",
+        "metrics": {
+          "rmse_samples": 0.00814280089577037,
+          "max_dev_samples": 0.01435083451431755,
+          "mean_dist_samples": 0.006958584457281456,
+          "smoothness_energy": 0.0012535643403105202,
+          "curvature_std": 2.1907018173259245,
+          "curvature_max": 12.176260755783577,
+          "hausdorff": 0.018101438350757077,
+          "mean_dist_true": 0.007235079335158996,
+          "rmse_true": 0.008203162892378666
+        },
+        "notes": "均匀采样,n=50"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:00",
+        "experiment": "Exp1_Parameterization",
+        "curve": "S-Curve",
+        "method": "Uniform",
+        "metrics": {
+          "rmse_samples": 0.0025930524588685315,
+          "max_dev_samples": 0.005288154662850117,
+          "mean_dist_samples": 0.0019969220749887447,
+          "smoothness_energy": 6.271560191725391e-06,
+          "curvature_std": 8.782758839651756,
+          "curvature_max": 39.42793244978171,
+          "hausdorff": 1.3730697603644981e-05,
+          "mean_dist_true": 2.6799358841457813e-06,
+          "rmse_true": 3.757138436889733e-06
+        },
+        "notes": "均匀采样,n=30"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:00",
+        "experiment": "Exp1_Parameterization",
+        "curve": "S-Curve",
+        "method": "Chord",
+        "metrics": {
+          "rmse_samples": 0.0020444501376164284,
+          "max_dev_samples": 0.003955547032116232,
+          "mean_dist_samples": 0.0016171122332774652,
+          "smoothness_energy": 5.9298829665897304e-05,
+          "curvature_std": 4.828789045096747,
+          "curvature_max": 38.88925443096079,
+          "hausdorff": 0.0061925576555966234,
+          "mean_dist_true": 0.002478948339763575,
+          "rmse_true": 0.0026145673632592377
+        },
+        "notes": "均匀采样,n=30"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:00",
+        "experiment": "Exp1_Parameterization",
+        "curve": "S-Curve",
+        "method": "Centripetal",
+        "metrics": {
+          "rmse_samples": 0.0020954820610690544,
+          "max_dev_samples": 0.00414763980549243,
+          "mean_dist_samples": 0.0016940203521482401,
+          "smoothness_energy": 1.0666248364072238e-05,
+          "curvature_std": 6.523110192374529,
+          "curvature_max": 39.50395432711126,
+          "hausdorff": 0.00618353276467702,
+          "mean_dist_true": 0.0020495742865354943,
+          "rmse_true": 0.002258780742883898
+        },
+        "notes": "均匀采样,n=30"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:02",
+        "experiment": "Exp1_Parameterization_Nonuniform",
+        "curve": "Heart",
+        "method": "Uniform",
+        "metrics": {
+          "rmse_samples": 0.07101194410354923,
+          "max_dev_samples": 0.15576979357512008,
+          "mean_dist_samples": 0.05497434221380035,
+          "smoothness_energy": 0.26137797545348995,
+          "curvature_std": 18.095823726274283,
+          "curvature_max": 273.4745886502666,
+          "hausdorff": 1.4779737366560695,
+          "mean_dist_true": 0.3043059993501953,
+          "rmse_true": 0.4539564711405874
+        },
+        "notes": "非均匀采样,n=25"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:02",
+        "experiment": "Exp1_Parameterization_Nonuniform",
+        "curve": "Heart",
+        "method": "Chord",
+        "metrics": {
+          "rmse_samples": 0.0493509205305201,
+          "max_dev_samples": 0.1031382294558212,
+          "mean_dist_samples": 0.039316861374111924,
+          "smoothness_energy": 0.050660775105607514,
+          "curvature_std": 0.9894864596434267,
+          "curvature_max": 19.104777416442165,
+          "hausdorff": 0.725959112745173,
+          "mean_dist_true": 0.12260158881600836,
+          "rmse_true": 0.19352933230818578
+        },
+        "notes": "非均匀采样,n=25"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:02",
+        "experiment": "Exp1_Parameterization_Nonuniform",
+        "curve": "Heart",
+        "method": "Centripetal",
+        "metrics": {
+          "rmse_samples": 0.03889874322550663,
+          "max_dev_samples": 0.08264232703602685,
+          "mean_dist_samples": 0.0290285473685411,
+          "smoothness_energy": 0.0614417514512193,
+          "curvature_std": 1.4200676823652114,
+          "curvature_max": 26.942462258430968,
+          "hausdorff": 1.1317577896393074,
+          "mean_dist_true": 0.2168670206877759,
+          "rmse_true": 0.3286762735474833
+        },
+        "notes": "非均匀采样,n=25"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:04",
+        "experiment": "Exp1_Parameterization_Nonuniform",
+        "curve": "Star",
+        "method": "Uniform",
+        "metrics": {
+          "rmse_samples": 0.009416400108995063,
+          "max_dev_samples": 0.02661542353066353,
+          "mean_dist_samples": 0.0073075937768599854,
+          "smoothness_energy": 0.003717047405503558,
+          "curvature_std": 250.1197537142202,
+          "curvature_max": 4988.427953520317,
+          "hausdorff": 0.3309368192392193,
+          "mean_dist_true": 0.06711531830373117,
+          "rmse_true": 0.11824933214673043
+        },
+        "notes": "非均匀采样,n=25"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:04",
+        "experiment": "Exp1_Parameterization_Nonuniform",
+        "curve": "Star",
+        "method": "Chord",
+        "metrics": {
+          "rmse_samples": 0.0064284888318905786,
+          "max_dev_samples": 0.014366874946386075,
+          "mean_dist_samples": 0.005190608012805541,
+          "smoothness_energy": 0.0009480439186654929,
+          "curvature_std": 1.7354834494076519,
+          "curvature_max": 12.278379177690462,
+          "hausdorff": 0.30005261920805865,
+          "mean_dist_true": 0.05224347992373257,
+          "rmse_true": 0.09470908695595831
+        },
+        "notes": "非均匀采样,n=25"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:04",
+        "experiment": "Exp1_Parameterization_Nonuniform",
+        "curve": "Star",
+        "method": "Centripetal",
+        "metrics": {
+          "rmse_samples": 0.006064138799725897,
+          "max_dev_samples": 0.011571959469392507,
+          "mean_dist_samples": 0.005137029398986487,
+          "smoothness_energy": 0.0013290446110965296,
+          "curvature_std": 4.048560391593272,
+          "curvature_max": 28.135949906115037,
+          "hausdorff": 0.3100635982133829,
+          "mean_dist_true": 0.05592368689668094,
+          "rmse_true": 0.10419315760001932
+        },
+        "notes": "非均匀采样,n=25"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:07",
+        "experiment": "Exp1_Parameterization_Nonuniform",
+        "curve": "Random_Blob",
+        "method": "Uniform",
+        "metrics": {
+          "rmse_samples": 0.023472127265451986,
+          "max_dev_samples": 0.06306278907433169,
+          "mean_dist_samples": 0.016177850644926182,
+          "smoothness_energy": 0.015919646757263834,
+          "curvature_std": 154.71442885514097,
+          "curvature_max": 3424.639490797948,
+          "hausdorff": 0.7146152492262874,
+          "mean_dist_true": 0.10025968569142188,
+          "rmse_true": 0.1946320190067967
+        },
+        "notes": "非均匀采样,n=25"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:07",
+        "experiment": "Exp1_Parameterization_Nonuniform",
+        "curve": "Random_Blob",
+        "method": "Chord",
+        "metrics": {
+          "rmse_samples": 0.01592539966262671,
+          "max_dev_samples": 0.032073226907999575,
+          "mean_dist_samples": 0.013297262588772151,
+          "smoothness_energy": 0.0007149302946541924,
+          "curvature_std": 0.15668327524487777,
+          "curvature_max": 0.799807907159568,
+          "hausdorff": 0.19952861753412474,
+          "mean_dist_true": 0.041194557192432465,
+          "rmse_true": 0.06060179160807929
+        },
+        "notes": "非均匀采样,n=25"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:07",
+        "experiment": "Exp1_Parameterization_Nonuniform",
+        "curve": "Random_Blob",
+        "method": "Centripetal",
+        "metrics": {
+          "rmse_samples": 0.015004925389240632,
+          "max_dev_samples": 0.031125187211316664,
+          "mean_dist_samples": 0.012037952104069011,
+          "smoothness_energy": 0.003773751997853416,
+          "curvature_std": 0.5868620536881509,
+          "curvature_max": 6.259107273542839,
+          "hausdorff": 0.5676017965909504,
+          "mean_dist_true": 0.07904185739359171,
+          "rmse_true": 0.1494976876229246
+        },
+        "notes": "非均匀采样,n=25"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:09",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Heart",
+        "method": "Interpolation",
+        "metrics": {
+          "rmse_samples": 0.05899152167765246,
+          "max_dev_samples": 0.1128132686453595,
+          "mean_dist_samples": 0.048124649229898564,
+          "smoothness_energy": 0.3303630851239371,
+          "curvature_std": 1.7790820956720483,
+          "curvature_max": 35.77331521771681,
+          "hausdorff": 1.3694505969923538,
+          "mean_dist_true": 0.40610996671719135,
+          "rmse_true": 0.46681341314556596
+        },
+        "notes": "noise=0.02"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:09",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Heart",
+        "method": "Smooth_Fitting",
+        "metrics": {
+          "rmse_samples": 0.28712171026856415,
+          "max_dev_samples": 0.5765091901584388,
+          "mean_dist_samples": 0.25047216548839724,
+          "smoothness_energy": 0.09552886598580505,
+          "curvature_std": 0.7146093756268175,
+          "curvature_max": 11.295617034999474,
+          "hausdorff": 1.1002291605752819,
+          "mean_dist_true": 0.35374977298566657,
+          "rmse_true": 0.432717205329626
+        },
+        "notes": "noise=0.02,s=2.0"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:10",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Heart",
+        "method": "Interpolation",
+        "metrics": {
+          "rmse_samples": 0.08454732221051299,
+          "max_dev_samples": 0.16773575773607435,
+          "mean_dist_samples": 0.07013297324167064,
+          "smoothness_energy": 1.1911210978662004,
+          "curvature_std": 6.6432750876659,
+          "curvature_max": 124.21948996397312,
+          "hausdorff": 3.2489719796777616,
+          "mean_dist_true": 0.9493413797033179,
+          "rmse_true": 1.0174990137397109
+        },
+        "notes": "noise=0.05"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:10",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Heart",
+        "method": "Smooth_Fitting",
+        "metrics": {
+          "rmse_samples": 0.3806610672799648,
+          "max_dev_samples": 0.7269214076350365,
+          "mean_dist_samples": 0.31499815497720307,
+          "smoothness_energy": 0.5833862044689495,
+          "curvature_std": 2.578253042866187,
+          "curvature_max": 31.358961905734777,
+          "hausdorff": 3.0825845898849575,
+          "mean_dist_true": 0.9114335265316689,
+          "rmse_true": 1.0051560276604077
+        },
+        "notes": "noise=0.05,s=5.0"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:11",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Heart",
+        "method": "Interpolation",
+        "metrics": {
+          "rmse_samples": 0.12190796451359232,
+          "max_dev_samples": 0.25288692019831954,
+          "mean_dist_samples": 0.08791398607391104,
+          "smoothness_energy": 5.046494303627577,
+          "curvature_std": 7.463353414470255,
+          "curvature_max": 106.37686002563197,
+          "hausdorff": 6.311907627950434,
+          "mean_dist_true": 1.5687137073008257,
+          "rmse_true": 1.172619602024594
+        },
+        "notes": "noise=0.1"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:11",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Heart",
+        "method": "Smooth_Fitting",
+        "metrics": {
+          "rmse_samples": 0.6012647553614279,
+          "max_dev_samples": 1.658250271412525,
+          "mean_dist_samples": 0.46570875981707294,
+          "smoothness_energy": 2.9019794607835587,
+          "curvature_std": 14.336870779838156,
+          "curvature_max": 206.97748125571323,
+          "hausdorff": 6.282537917658316,
+          "mean_dist_true": 1.426482335412781,
+          "rmse_true": 1.0788141373152904
+        },
+        "notes": "noise=0.1,s=10.0"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:11",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Ellipse",
+        "method": "Interpolation",
+        "metrics": {
+          "rmse_samples": 0.006612492042739437,
+          "max_dev_samples": 0.00983897833327821,
+          "mean_dist_samples": 0.005650298200486009,
+          "smoothness_energy": 0.00030500512753305065,
+          "curvature_std": 1.674643158825274,
+          "curvature_max": 14.036265117935194,
+          "hausdorff": 0.11478235825886308,
+          "mean_dist_true": 0.0347036842052791,
+          "rmse_true": 0.04125423460495406
+        },
+        "notes": "noise=0.02"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:11",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Ellipse",
+        "method": "Smooth_Fitting",
+        "metrics": {
+          "rmse_samples": 0.18193301521024863,
+          "max_dev_samples": 0.4621878894950866,
+          "mean_dist_samples": 0.1192461739382536,
+          "smoothness_energy": 1.8925365794788823e-05,
+          "curvature_std": 0.3776161815449316,
+          "curvature_max": 1.6213970675395841,
+          "hausdorff": 0.4427296874713168,
+          "mean_dist_true": 0.11671093098774579,
+          "rmse_true": 0.17059422569727362
+        },
+        "notes": "noise=0.02,s=2.0"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:12",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Ellipse",
+        "method": "Interpolation",
+        "metrics": {
+          "rmse_samples": 0.007207025179700774,
+          "max_dev_samples": 0.014985428469750213,
+          "mean_dist_samples": 0.005918900995039385,
+          "smoothness_energy": 0.00494377738281963,
+          "curvature_std": 17.084747369531073,
+          "curvature_max": 181.27067727324507,
+          "hausdorff": 0.364244718476659,
+          "mean_dist_true": 0.09761691785912888,
+          "rmse_true": 0.0909287594221817
+        },
+        "notes": "noise=0.05"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:12",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Ellipse",
+        "method": "Smooth_Fitting",
+        "metrics": {
+          "rmse_samples": 0.24973972302414363,
+          "max_dev_samples": 0.6992136680313549,
+          "mean_dist_samples": 0.1772806072776967,
+          "smoothness_energy": 2.249457276913276e-05,
+          "curvature_std": 0.4098953735084421,
+          "curvature_max": 1.3313664134603558,
+          "hausdorff": 0.8821732595260119,
+          "mean_dist_true": 0.13393742284580773,
+          "rmse_true": 0.17211370981206522
+        },
+        "notes": "noise=0.05,s=5.0"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:13",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Ellipse",
+        "method": "Interpolation",
+        "metrics": {
+          "rmse_samples": 0.00925904668068572,
+          "max_dev_samples": 0.02412191453108955,
+          "mean_dist_samples": 0.006959319392301539,
+          "smoothness_energy": 0.01761539169650827,
+          "curvature_std": 15.544882915093265,
+          "curvature_max": 163.65904509168374,
+          "hausdorff": 0.7069939286035831,
+          "mean_dist_true": 0.1762073979236182,
+          "rmse_true": 0.15066534081700494
+        },
+        "notes": "noise=0.1"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:13",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Ellipse",
+        "method": "Smooth_Fitting",
+        "metrics": {
+          "rmse_samples": 0.3215863047096426,
+          "max_dev_samples": 0.7282168029580837,
+          "mean_dist_samples": 0.24741296138280774,
+          "smoothness_energy": 2.0813916442979256e-05,
+          "curvature_std": 0.49677870128598145,
+          "curvature_max": 2.093334772874251,
+          "hausdorff": 0.7946619156533343,
+          "mean_dist_true": 0.20025825068661937,
+          "rmse_true": 0.23477715252922388
+        },
+        "notes": "noise=0.1,s=10.0"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:14",
+        "experiment": "Exp3_Sampling_Density",
+        "curve": "Heart",
+        "method": "n=10",
+        "metrics": {
+          "rmse_samples": 0.06824828320047557,
+          "max_dev_samples": 0.09624292596002008,
+          "mean_dist_samples": 0.06060174132492624,
+          "smoothness_energy": 0.02173309918819564,
+          "curvature_std": 0.33271758978354765,
+          "curvature_max": 3.2037441141856906,
+          "hausdorff": 0.7830548473288754,
+          "mean_dist_true": 0.3399105990709997,
+          "rmse_true": 0.4072337547960488
+        },
+        "notes": "弦长参数化,三次样条"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:14",
+        "experiment": "Exp3_Sampling_Density",
+        "curve": "Heart",
+        "method": "n=20",
+        "metrics": {
+          "rmse_samples": 0.0752850210192628,
+          "max_dev_samples": 0.10206599076875408,
+          "mean_dist_samples": 0.06751744657462708,
+          "smoothness_energy": 0.06386223265877006,
+          "curvature_std": 0.9492443265562119,
+          "curvature_max": 13.87946912858682,
+          "hausdorff": 0.2404857188239907,
+          "mean_dist_true": 0.09236000374745276,
+          "rmse_true": 0.10588419650892097
+        },
+        "notes": "弦长参数化,三次样条"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:14",
+        "experiment": "Exp3_Sampling_Density",
+        "curve": "Heart",
+        "method": "n=40",
+        "metrics": {
+          "rmse_samples": 0.06506279339198615,
+          "max_dev_samples": 0.12490204948211296,
+          "mean_dist_samples": 0.05379406017375732,
+          "smoothness_energy": 0.17574619348590623,
+          "curvature_std": 0.24542619073232988,
+          "curvature_max": 3.80993280406725,
+          "hausdorff": 0.14630507494428058,
+          "mean_dist_true": 0.05547368412730579,
+          "rmse_true": 0.060478534243213845
+        },
+        "notes": "弦长参数化,三次样条"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:14",
+        "experiment": "Exp3_Sampling_Density",
+        "curve": "Heart",
+        "method": "n=80",
+        "metrics": {
+          "rmse_samples": 0.06274857454367187,
+          "max_dev_samples": 0.10478305786334985,
+          "mean_dist_samples": 0.05516561110587087,
+          "smoothness_energy": 0.10568999518539332,
+          "curvature_std": 0.18222288923826024,
+          "curvature_max": 2.7965717442750915,
+          "hausdorff": 0.1442636898737801,
+          "mean_dist_true": 0.054135123632192826,
+          "rmse_true": 0.05900279748492228
+        },
+        "notes": "弦长参数化,三次样条"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:19",
+        "experiment": "Exp7_Irregular_Shapes",
+        "curve": "Random_Polygon",
+        "method": "Chord_CubicSpline",
+        "metrics": {
+          "rmse_samples": 0.01945861362988089,
+          "max_dev_samples": 0.034060705947348,
+          "mean_dist_samples": 0.01648883606966099,
+          "smoothness_energy": 0.004750192858725903,
+          "curvature_std": 0.815075990035104,
+          "curvature_max": 5.680238063626894,
+          "hausdorff": 9.622953291118327,
+          "mean_dist_true": 2.999206025878701,
+          "rmse_true": 1.9827720235475566
+        },
+        "notes": "不规则图形,n=40"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:19",
+        "experiment": "Exp7_Irregular_Shapes",
+        "curve": "Random_Blob",
+        "method": "Chord_CubicSpline",
+        "metrics": {
+          "rmse_samples": 0.017038025635050295,
+          "max_dev_samples": 0.03328077180636149,
+          "mean_dist_samples": 0.01400070620434839,
+          "smoothness_energy": 0.0009252641625413114,
+          "curvature_std": 0.15952960508347086,
+          "curvature_max": 0.7875103367244087,
+          "hausdorff": 0.9332308003337977,
+          "mean_dist_true": 0.3526166859665376,
+          "rmse_true": 0.4284201436948965
+        },
+        "notes": "不规则图形,n=50"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:20",
+        "experiment": "Exp7_Irregular_Shapes",
+        "curve": "Perturbed_Circle",
+        "method": "Chord_CubicSpline",
+        "metrics": {
+          "rmse_samples": 0.02714284982992335,
+          "max_dev_samples": 0.04255661599436765,
+          "mean_dist_samples": 0.023733173215077695,
+          "smoothness_energy": 0.0007164818305859411,
+          "curvature_std": 0.0435802740690632,
+          "curvature_max": 0.4520063244290596,
+          "hausdorff": 2.731787470187897,
+          "mean_dist_true": 1.3974616982795938,
+          "rmse_true": 1.5670014975973372
+        },
+        "notes": "不规则图形,n=50"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:21",
+        "experiment": "Exp9_Interpolation_Methods",
+        "curve": "Clean_Data",
+        "method": "CubicSpline_Interp",
+        "metrics": {
+          "rmse_samples": 0.06506279339198615,
+          "max_dev_samples": 0.12490204948211296,
+          "mean_dist_samples": 0.05379406017375732,
+          "smoothness_energy": 0.17574619348590623,
+          "curvature_std": 0.24542619073232988,
+          "curvature_max": 3.80993280406725,
+          "hausdorff": 0.14630507494428058,
+          "mean_dist_true": 0.05547368412730579,
+          "rmse_true": 0.060478534243213845
+        },
+        "notes": "Heart,noise=0.0"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:21",
+        "experiment": "Exp9_Interpolation_Methods",
+        "curve": "Clean_Data",
+        "method": "BSpline_Interp_s0",
+        "metrics": {
+          "rmse_samples": 0.06568567346983586,
+          "max_dev_samples": 0.1479213697031376,
+          "mean_dist_samples": 0.05445987215529404,
+          "smoothness_energy": 0.16317819634724118,
+          "curvature_std": 4.319347251880085,
+          "curvature_max": 96.38721371870135,
+          "hausdorff": 0.1738718420499745,
+          "mean_dist_true": 0.05670894008483642,
+          "rmse_true": 0.06271223337872533
+        },
+        "notes": "Heart,noise=0.0,s=0"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:21",
+        "experiment": "Exp9_Interpolation_Methods",
+        "curve": "Clean_Data",
+        "method": "BSpline_Fit",
+        "metrics": {
+          "rmse_samples": 0.07559831013818227,
+          "max_dev_samples": 0.1539871728778797,
+          "mean_dist_samples": 0.06855935209065758,
+          "smoothness_energy": 0.0735946770874744,
+          "curvature_std": 4.2159273902295915,
+          "curvature_max": 90.1530005969195,
+          "hausdorff": 0.1726169625542627,
+          "mean_dist_true": 0.06531632491984546,
+          "rmse_true": 0.06940912375146838
+        },
+        "notes": "Heart,noise=0.0,s=0.1"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:21",
+        "experiment": "Exp9_Interpolation_Methods",
+        "curve": "Clean_Data",
+        "method": "UnivariateSpline_Fit",
+        "metrics": {
+          "rmse_samples": 0.08249841407692704,
+          "max_dev_samples": 0.1276144243115611,
+          "mean_dist_samples": 0.0767512712689973,
+          "smoothness_energy": 0.05584324765858003,
+          "curvature_std": 0.8126096461761939,
+          "curvature_max": 16.954311585411048,
+          "hausdorff": 0.16019905830133277,
+          "mean_dist_true": 0.0706393370266951,
+          "rmse_true": 0.07413439573069776
+        },
+        "notes": "Heart,noise=0.0,s=0.1"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:23",
+        "experiment": "Exp9_Interpolation_Methods",
+        "curve": "Noisy_Data_2%",
+        "method": "CubicSpline_Interp",
+        "metrics": {
+          "rmse_samples": 0.06917564572351133,
+          "max_dev_samples": 0.13118758532810243,
+          "mean_dist_samples": 0.05879341387464272,
+          "smoothness_energy": 0.48894439407708545,
+          "curvature_std": 2.765681611144069,
+          "curvature_max": 52.20136893095499,
+          "hausdorff": 1.4182363404425702,
+          "mean_dist_true": 0.4021543611091139,
+          "rmse_true": 0.4675185274924215
+        },
+        "notes": "Heart,noise=0.02"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:23",
+        "experiment": "Exp9_Interpolation_Methods",
+        "curve": "Noisy_Data_2%",
+        "method": "BSpline_Interp_s0",
+        "metrics": {
+          "rmse_samples": 0.13784705236939668,
+          "max_dev_samples": 0.7605807777792356,
+          "mean_dist_samples": 0.07522769555690062,
+          "smoothness_energy": 0.3480567319186342,
+          "curvature_std": 4.57339826567891,
+          "curvature_max": 101.06039165093993,
+          "hausdorff": 1.4178373289949908,
+          "mean_dist_true": 0.41430119150966016,
+          "rmse_true": 0.47953554460044484
+        },
+        "notes": "Heart,noise=0.02,s=0"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:23",
+        "experiment": "Exp9_Interpolation_Methods",
+        "curve": "Noisy_Data_2%",
+        "method": "BSpline_Fit",
+        "metrics": {
+          "rmse_samples": 0.21460547045647363,
+          "max_dev_samples": 0.963550939514198,
+          "mean_dist_samples": 0.1465748970376543,
+          "smoothness_energy": 0.18627496915390002,
+          "curvature_std": 4.08539982501835,
+          "curvature_max": 88.40512499038117,
+          "hausdorff": 1.4128855561638254,
+          "mean_dist_true": 0.4308216467969893,
+          "rmse_true": 0.504683533020816
+        },
+        "notes": "Heart,noise=0.02,s=1.0"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:23",
+        "experiment": "Exp9_Interpolation_Methods",
+        "curve": "Noisy_Data_2%",
+        "method": "UnivariateSpline_Fit",
+        "metrics": {
+          "rmse_samples": 0.29086382808451716,
+          "max_dev_samples": 0.5262739358097643,
+          "mean_dist_samples": 0.2633152510141373,
+          "smoothness_energy": 0.12457519782034694,
+          "curvature_std": 2.699754898506807,
+          "curvature_max": 48.14714397555213,
+          "hausdorff": 1.053154811843746,
+          "mean_dist_true": 0.3856680040454509,
+          "rmse_true": 0.4407330909269986
+        },
+        "notes": "Heart,noise=0.02,s=2.0"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:25",
+        "experiment": "Exp9_Interpolation_Methods",
+        "curve": "Noisy_Data_5%",
+        "method": "CubicSpline_Interp",
+        "metrics": {
+          "rmse_samples": 0.08305603203193898,
+          "max_dev_samples": 0.17985911278927946,
+          "mean_dist_samples": 0.0653126646804855,
+          "smoothness_energy": 0.8526800696020882,
+          "curvature_std": 3.647221013551337,
+          "curvature_max": 69.68711161299062,
+          "hausdorff": 3.73658294588317,
+          "mean_dist_true": 1.0532172893592664,
+          "rmse_true": 1.1389708067536861
+        },
+        "notes": "Heart,noise=0.05"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:25",
+        "experiment": "Exp9_Interpolation_Methods",
+        "curve": "Noisy_Data_5%",
+        "method": "BSpline_Interp_s0",
+        "metrics": {
+          "rmse_samples": 0.4027061112669636,
+          "max_dev_samples": 2.505935003791055,
+          "mean_dist_samples": 0.12301494110381594,
+          "smoothness_energy": 0.6893745310540818,
+          "curvature_std": 2.0038638798907007,
+          "curvature_max": 32.41347460573842,
+          "hausdorff": 3.7399923312887995,
+          "mean_dist_true": 1.060122991441394,
+          "rmse_true": 1.1638483470685115
+        },
+        "notes": "Heart,noise=0.05,s=0"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:25",
+        "experiment": "Exp9_Interpolation_Methods",
+        "curve": "Noisy_Data_5%",
+        "method": "BSpline_Fit",
+        "metrics": {
+          "rmse_samples": 0.4689408224674418,
+          "max_dev_samples": 2.5918472939782213,
+          "mean_dist_samples": 0.24359572905807592,
+          "smoothness_energy": 0.34373330038065225,
+          "curvature_std": 2.7949219784613297,
+          "curvature_max": 41.93326400865222,
+          "hausdorff": 3.4720284471463176,
+          "mean_dist_true": 1.0504332904880858,
+          "rmse_true": 1.170372359418947
+        },
+        "notes": "Heart,noise=0.05,s=2.5"
+      },
+      {
+        "timestamp": "2026-04-26 15:11:25",
+        "experiment": "Exp9_Interpolation_Methods",
+        "curve": "Noisy_Data_5%",
+        "method": "UnivariateSpline_Fit",
+        "metrics": {
+          "rmse_samples": 0.4119990838571617,
+          "max_dev_samples": 0.9491635677238199,
+          "mean_dist_samples": 0.35411722611023994,
+          "smoothness_energy": 0.28044196403659105,
+          "curvature_std": 3.800335969841792,
+          "curvature_max": 66.29793081368533,
+          "hausdorff": 3.330459832991249,
+          "mean_dist_true": 1.0165577103107073,
+          "rmse_true": 1.1112866487505546
+        },
+        "notes": "Heart,noise=0.05,s=5.0"
+      }
+    ]
+  },
+  {
+    "session_start": "2026-04-26 20:22:56",
+    "session_end": "2026-04-26 20:24:21",
+    "total_experiments": 52,
+    "results": [
+      {
+        "timestamp": "2026-04-26 20:22:56",
+        "experiment": "Exp1_Parameterization",
+        "curve": "Circle",
+        "method": "Uniform",
+        "metrics": {
+          "rmse_samples": 0.003638862369211757,
+          "max_dev_samples": 0.006295699179221757,
+          "mean_dist_samples": 0.0031478520866211135,
+          "smoothness_energy": 1.2517808236339474e-05,
+          "curvature_std": 0.0016185868261858675,
+          "curvature_max": 1.0032942292219535,
+          "hausdorff": 0.006295699179221757,
+          "mean_dist_true": 0.003141589914537106,
+          "rmse_true": 0.0036348819361458314
+        },
+        "notes": "均匀采样,n=30"
+      },
+      {
+        "timestamp": "2026-04-26 20:22:56",
+        "experiment": "Exp1_Parameterization",
+        "curve": "Circle",
+        "method": "Chord",
+        "metrics": {
+          "rmse_samples": 0.0036388623692116774,
+          "max_dev_samples": 0.006295699179221043,
+          "mean_dist_samples": 0.003147852086621096,
+          "smoothness_energy": 1.251780823633951e-05,
+          "curvature_std": 0.0016185868261878887,
+          "curvature_max": 1.0032942292215554,
+          "hausdorff": 0.006295699179221043,
+          "mean_dist_true": 0.0031415899145365083,
+          "rmse_true": 0.003634881936145317
+        },
+        "notes": "均匀采样,n=30"
+      },
+      {
+        "timestamp": "2026-04-26 20:22:56",
+        "experiment": "Exp1_Parameterization",
+        "curve": "Circle",
+        "method": "Centripetal",
+        "metrics": {
+          "rmse_samples": 0.0036388623692117632,
+          "max_dev_samples": 0.006295699179222076,
+          "mean_dist_samples": 0.003147852086621149,
+          "smoothness_energy": 1.2517808236339545e-05,
+          "curvature_std": 0.0016185868261988463,
+          "curvature_max": 1.0032942292219535,
+          "hausdorff": 0.006295699179222076,
+          "mean_dist_true": 0.003141589914536901,
+          "rmse_true": 0.003634881936145674
+        },
+        "notes": "均匀采样,n=30"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:00",
+        "experiment": "Exp1_Parameterization",
+        "curve": "Heart",
+        "method": "Uniform",
+        "metrics": {
+          "rmse_samples": 0.0597069236494387,
+          "max_dev_samples": 0.10711668973277198,
+          "mean_dist_samples": 0.05102358420932118,
+          "smoothness_energy": 0.016188884775899443,
+          "curvature_std": 1.0292346357871263,
+          "curvature_max": 16.155632606940937,
+          "hausdorff": 0.1080069849198371,
+          "mean_dist_true": 0.05202534722985515,
+          "rmse_true": 0.06217674814040669
+        },
+        "notes": "均匀采样,n=40"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:00",
+        "experiment": "Exp1_Parameterization",
+        "curve": "Heart",
+        "method": "Chord",
+        "metrics": {
+          "rmse_samples": 0.06506279339198615,
+          "max_dev_samples": 0.12490204948211296,
+          "mean_dist_samples": 0.05379406017375732,
+          "smoothness_energy": 0.17574619348590623,
+          "curvature_std": 0.24542619073232988,
+          "curvature_max": 3.80993280406725,
+          "hausdorff": 0.14630507494428058,
+          "mean_dist_true": 0.05547368412730579,
+          "rmse_true": 0.060478534243213845
+        },
+        "notes": "均匀采样,n=40"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:00",
+        "experiment": "Exp1_Parameterization",
+        "curve": "Heart",
+        "method": "Centripetal",
+        "metrics": {
+          "rmse_samples": 0.06150611147419182,
+          "max_dev_samples": 0.10709593227729321,
+          "mean_dist_samples": 0.0532443495384413,
+          "smoothness_energy": 0.023127421553997135,
+          "curvature_std": 1.8281102254158867,
+          "curvature_max": 28.831256865663757,
+          "hausdorff": 0.1518796411016077,
+          "mean_dist_true": 0.052621757751887606,
+          "rmse_true": 0.0573050521451185
+        },
+        "notes": "均匀采样,n=40"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:03",
+        "experiment": "Exp1_Parameterization",
+        "curve": "Star",
+        "method": "Uniform",
+        "metrics": {
+          "rmse_samples": 0.008531046149222964,
+          "max_dev_samples": 0.01672950858650711,
+          "mean_dist_samples": 0.007171957477799332,
+          "smoothness_energy": 0.001239739998504814,
+          "curvature_std": 2.4794398655378824,
+          "curvature_max": 11.80180832296937,
+          "hausdorff": 0.016857796554191836,
+          "mean_dist_true": 0.00717877262242463,
+          "rmse_true": 0.008539309330866883
+        },
+        "notes": "均匀采样,n=50"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:03",
+        "experiment": "Exp1_Parameterization",
+        "curve": "Star",
+        "method": "Chord",
+        "metrics": {
+          "rmse_samples": 0.008253628596747003,
+          "max_dev_samples": 0.01456412372225171,
+          "mean_dist_samples": 0.007112711046875598,
+          "smoothness_energy": 0.0019234103969288491,
+          "curvature_std": 1.9365027456020936,
+          "curvature_max": 12.084910574056448,
+          "hausdorff": 0.01784860623424114,
+          "mean_dist_true": 0.007490556099743849,
+          "rmse_true": 0.008335196534830221
+        },
+        "notes": "均匀采样,n=50"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:03",
+        "experiment": "Exp1_Parameterization",
+        "curve": "Star",
+        "method": "Centripetal",
+        "metrics": {
+          "rmse_samples": 0.00814280089577037,
+          "max_dev_samples": 0.01435083451431755,
+          "mean_dist_samples": 0.006958584457281456,
+          "smoothness_energy": 0.0012535643403105202,
+          "curvature_std": 2.1907018173259245,
+          "curvature_max": 12.176260755783577,
+          "hausdorff": 0.018101438350757077,
+          "mean_dist_true": 0.007235079335158996,
+          "rmse_true": 0.008203162892378666
+        },
+        "notes": "均匀采样,n=50"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:05",
+        "experiment": "Exp1_Parameterization",
+        "curve": "S-Curve",
+        "method": "Uniform",
+        "metrics": {
+          "rmse_samples": 0.0025930524588685315,
+          "max_dev_samples": 0.005288154662850117,
+          "mean_dist_samples": 0.0019969220749887447,
+          "smoothness_energy": 6.271560191725391e-06,
+          "curvature_std": 8.782758839651756,
+          "curvature_max": 39.42793244978171,
+          "hausdorff": 1.3730697603644981e-05,
+          "mean_dist_true": 2.6799358841457813e-06,
+          "rmse_true": 3.757138436889733e-06
+        },
+        "notes": "均匀采样,n=30"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:05",
+        "experiment": "Exp1_Parameterization",
+        "curve": "S-Curve",
+        "method": "Chord",
+        "metrics": {
+          "rmse_samples": 0.0020444501376164284,
+          "max_dev_samples": 0.003955547032116232,
+          "mean_dist_samples": 0.0016171122332774652,
+          "smoothness_energy": 5.9298829665897304e-05,
+          "curvature_std": 4.828789045096747,
+          "curvature_max": 38.88925443096079,
+          "hausdorff": 0.0061925576555966234,
+          "mean_dist_true": 0.002478948339763575,
+          "rmse_true": 0.0026145673632592377
+        },
+        "notes": "均匀采样,n=30"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:05",
+        "experiment": "Exp1_Parameterization",
+        "curve": "S-Curve",
+        "method": "Centripetal",
+        "metrics": {
+          "rmse_samples": 0.0020954820610690544,
+          "max_dev_samples": 0.00414763980549243,
+          "mean_dist_samples": 0.0016940203521482401,
+          "smoothness_energy": 1.0666248364072238e-05,
+          "curvature_std": 6.523110192374529,
+          "curvature_max": 39.50395432711126,
+          "hausdorff": 0.00618353276467702,
+          "mean_dist_true": 0.0020495742865354943,
+          "rmse_true": 0.002258780742883898
+        },
+        "notes": "均匀采样,n=30"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:08",
+        "experiment": "Exp1_Parameterization_Nonuniform",
+        "curve": "Heart",
+        "method": "Uniform",
+        "metrics": {
+          "rmse_samples": 0.07101194410354923,
+          "max_dev_samples": 0.15576979357512008,
+          "mean_dist_samples": 0.05497434221380035,
+          "smoothness_energy": 0.26137797545348995,
+          "curvature_std": 18.095823726274283,
+          "curvature_max": 273.4745886502666,
+          "hausdorff": 1.4779737366560695,
+          "mean_dist_true": 0.3043059993501953,
+          "rmse_true": 0.4539564711405874
+        },
+        "notes": "非均匀采样,n=25"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:08",
+        "experiment": "Exp1_Parameterization_Nonuniform",
+        "curve": "Heart",
+        "method": "Chord",
+        "metrics": {
+          "rmse_samples": 0.0493509205305201,
+          "max_dev_samples": 0.1031382294558212,
+          "mean_dist_samples": 0.039316861374111924,
+          "smoothness_energy": 0.050660775105607514,
+          "curvature_std": 0.9894864596434267,
+          "curvature_max": 19.104777416442165,
+          "hausdorff": 0.725959112745173,
+          "mean_dist_true": 0.12260158881600836,
+          "rmse_true": 0.19352933230818578
+        },
+        "notes": "非均匀采样,n=25"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:08",
+        "experiment": "Exp1_Parameterization_Nonuniform",
+        "curve": "Heart",
+        "method": "Centripetal",
+        "metrics": {
+          "rmse_samples": 0.03889874322550663,
+          "max_dev_samples": 0.08264232703602685,
+          "mean_dist_samples": 0.0290285473685411,
+          "smoothness_energy": 0.0614417514512193,
+          "curvature_std": 1.4200676823652114,
+          "curvature_max": 26.942462258430968,
+          "hausdorff": 1.1317577896393074,
+          "mean_dist_true": 0.2168670206877759,
+          "rmse_true": 0.3286762735474833
+        },
+        "notes": "非均匀采样,n=25"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:11",
+        "experiment": "Exp1_Parameterization_Nonuniform",
+        "curve": "Star",
+        "method": "Uniform",
+        "metrics": {
+          "rmse_samples": 0.009416400108995063,
+          "max_dev_samples": 0.02661542353066353,
+          "mean_dist_samples": 0.0073075937768599854,
+          "smoothness_energy": 0.003717047405503558,
+          "curvature_std": 250.1197537142202,
+          "curvature_max": 4988.427953520317,
+          "hausdorff": 0.3309368192392193,
+          "mean_dist_true": 0.06711531830373117,
+          "rmse_true": 0.11824933214673043
+        },
+        "notes": "非均匀采样,n=25"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:11",
+        "experiment": "Exp1_Parameterization_Nonuniform",
+        "curve": "Star",
+        "method": "Chord",
+        "metrics": {
+          "rmse_samples": 0.0064284888318905786,
+          "max_dev_samples": 0.014366874946386075,
+          "mean_dist_samples": 0.005190608012805541,
+          "smoothness_energy": 0.0009480439186654929,
+          "curvature_std": 1.7354834494076519,
+          "curvature_max": 12.278379177690462,
+          "hausdorff": 0.30005261920805865,
+          "mean_dist_true": 0.05224347992373257,
+          "rmse_true": 0.09470908695595831
+        },
+        "notes": "非均匀采样,n=25"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:11",
+        "experiment": "Exp1_Parameterization_Nonuniform",
+        "curve": "Star",
+        "method": "Centripetal",
+        "metrics": {
+          "rmse_samples": 0.006064138799725897,
+          "max_dev_samples": 0.011571959469392507,
+          "mean_dist_samples": 0.005137029398986487,
+          "smoothness_energy": 0.0013290446110965296,
+          "curvature_std": 4.048560391593272,
+          "curvature_max": 28.135949906115037,
+          "hausdorff": 0.3100635982133829,
+          "mean_dist_true": 0.05592368689668094,
+          "rmse_true": 0.10419315760001932
+        },
+        "notes": "非均匀采样,n=25"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:14",
+        "experiment": "Exp1_Parameterization_Nonuniform",
+        "curve": "Random_Blob",
+        "method": "Uniform",
+        "metrics": {
+          "rmse_samples": 0.023472127265451986,
+          "max_dev_samples": 0.06306278907433169,
+          "mean_dist_samples": 0.016177850644926182,
+          "smoothness_energy": 0.015919646757263834,
+          "curvature_std": 154.71442885514097,
+          "curvature_max": 3424.639490797948,
+          "hausdorff": 0.7146152492262874,
+          "mean_dist_true": 0.10025968569142188,
+          "rmse_true": 0.1946320190067967
+        },
+        "notes": "非均匀采样,n=25"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:14",
+        "experiment": "Exp1_Parameterization_Nonuniform",
+        "curve": "Random_Blob",
+        "method": "Chord",
+        "metrics": {
+          "rmse_samples": 0.01592539966262671,
+          "max_dev_samples": 0.032073226907999575,
+          "mean_dist_samples": 0.013297262588772151,
+          "smoothness_energy": 0.0007149302946541924,
+          "curvature_std": 0.15668327524487777,
+          "curvature_max": 0.799807907159568,
+          "hausdorff": 0.19952861753412474,
+          "mean_dist_true": 0.041194557192432465,
+          "rmse_true": 0.06060179160807929
+        },
+        "notes": "非均匀采样,n=25"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:14",
+        "experiment": "Exp1_Parameterization_Nonuniform",
+        "curve": "Random_Blob",
+        "method": "Centripetal",
+        "metrics": {
+          "rmse_samples": 0.015004925389240632,
+          "max_dev_samples": 0.031125187211316664,
+          "mean_dist_samples": 0.012037952104069011,
+          "smoothness_energy": 0.003773751997853416,
+          "curvature_std": 0.5868620536881509,
+          "curvature_max": 6.259107273542839,
+          "hausdorff": 0.5676017965909504,
+          "mean_dist_true": 0.07904185739359171,
+          "rmse_true": 0.1494976876229246
+        },
+        "notes": "非均匀采样,n=25"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:16",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Heart",
+        "method": "Interpolation",
+        "metrics": {
+          "rmse_samples": 0.05899152167765246,
+          "max_dev_samples": 0.1128132686453595,
+          "mean_dist_samples": 0.048124649229898564,
+          "smoothness_energy": 0.3303630851239371,
+          "curvature_std": 1.7790820956720483,
+          "curvature_max": 35.77331521771681,
+          "hausdorff": 1.3694505969923538,
+          "mean_dist_true": 0.40610996671719135,
+          "rmse_true": 0.46681341314556596
+        },
+        "notes": "noise=0.02"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:16",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Heart",
+        "method": "Smooth_Fitting",
+        "metrics": {
+          "rmse_samples": 0.28712171026856415,
+          "max_dev_samples": 0.5765091901584388,
+          "mean_dist_samples": 0.25047216548839724,
+          "smoothness_energy": 0.09552886598580505,
+          "curvature_std": 0.7146093756268175,
+          "curvature_max": 11.295617034999474,
+          "hausdorff": 1.1002291605752819,
+          "mean_dist_true": 0.35374977298566657,
+          "rmse_true": 0.432717205329626
+        },
+        "notes": "noise=0.02,s=2.0"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:17",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Heart",
+        "method": "Interpolation",
+        "metrics": {
+          "rmse_samples": 0.08454732221051299,
+          "max_dev_samples": 0.16773575773607435,
+          "mean_dist_samples": 0.07013297324167064,
+          "smoothness_energy": 1.1911210978662004,
+          "curvature_std": 6.6432750876659,
+          "curvature_max": 124.21948996397312,
+          "hausdorff": 3.2489719796777616,
+          "mean_dist_true": 0.9493413797033179,
+          "rmse_true": 1.0174990137397109
+        },
+        "notes": "noise=0.05"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:17",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Heart",
+        "method": "Smooth_Fitting",
+        "metrics": {
+          "rmse_samples": 0.3806610672799648,
+          "max_dev_samples": 0.7269214076350365,
+          "mean_dist_samples": 0.31499815497720307,
+          "smoothness_energy": 0.5833862044689495,
+          "curvature_std": 2.578253042866187,
+          "curvature_max": 31.358961905734777,
+          "hausdorff": 3.0825845898849575,
+          "mean_dist_true": 0.9114335265316689,
+          "rmse_true": 1.0051560276604077
+        },
+        "notes": "noise=0.05,s=5.0"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:18",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Heart",
+        "method": "Interpolation",
+        "metrics": {
+          "rmse_samples": 0.12190796451359232,
+          "max_dev_samples": 0.25288692019831954,
+          "mean_dist_samples": 0.08791398607391104,
+          "smoothness_energy": 5.046494303627577,
+          "curvature_std": 7.463353414470255,
+          "curvature_max": 106.37686002563197,
+          "hausdorff": 6.311907627950434,
+          "mean_dist_true": 1.5687137073008257,
+          "rmse_true": 1.172619602024594
+        },
+        "notes": "noise=0.1"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:18",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Heart",
+        "method": "Smooth_Fitting",
+        "metrics": {
+          "rmse_samples": 0.6012647553614279,
+          "max_dev_samples": 1.658250271412525,
+          "mean_dist_samples": 0.46570875981707294,
+          "smoothness_energy": 2.9019794607835587,
+          "curvature_std": 14.336870779838156,
+          "curvature_max": 206.97748125571323,
+          "hausdorff": 6.282537917658316,
+          "mean_dist_true": 1.426482335412781,
+          "rmse_true": 1.0788141373152904
+        },
+        "notes": "noise=0.1,s=10.0"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:19",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Ellipse",
+        "method": "Interpolation",
+        "metrics": {
+          "rmse_samples": 0.006612492042739437,
+          "max_dev_samples": 0.00983897833327821,
+          "mean_dist_samples": 0.005650298200486009,
+          "smoothness_energy": 0.00030500512753305065,
+          "curvature_std": 1.674643158825274,
+          "curvature_max": 14.036265117935194,
+          "hausdorff": 0.11478235825886308,
+          "mean_dist_true": 0.0347036842052791,
+          "rmse_true": 0.04125423460495406
+        },
+        "notes": "noise=0.02"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:19",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Ellipse",
+        "method": "Smooth_Fitting",
+        "metrics": {
+          "rmse_samples": 0.18193301521024863,
+          "max_dev_samples": 0.4621878894950866,
+          "mean_dist_samples": 0.1192461739382536,
+          "smoothness_energy": 1.8925365794788823e-05,
+          "curvature_std": 0.3776161815449316,
+          "curvature_max": 1.6213970675395841,
+          "hausdorff": 0.4427296874713168,
+          "mean_dist_true": 0.11671093098774579,
+          "rmse_true": 0.17059422569727362
+        },
+        "notes": "noise=0.02,s=2.0"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:20",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Ellipse",
+        "method": "Interpolation",
+        "metrics": {
+          "rmse_samples": 0.007207025179700774,
+          "max_dev_samples": 0.014985428469750213,
+          "mean_dist_samples": 0.005918900995039385,
+          "smoothness_energy": 0.00494377738281963,
+          "curvature_std": 17.084747369531073,
+          "curvature_max": 181.27067727324507,
+          "hausdorff": 0.364244718476659,
+          "mean_dist_true": 0.09761691785912888,
+          "rmse_true": 0.0909287594221817
+        },
+        "notes": "noise=0.05"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:20",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Ellipse",
+        "method": "Smooth_Fitting",
+        "metrics": {
+          "rmse_samples": 0.24973972302414363,
+          "max_dev_samples": 0.6992136680313549,
+          "mean_dist_samples": 0.1772806072776967,
+          "smoothness_energy": 2.249457276913276e-05,
+          "curvature_std": 0.4098953735084421,
+          "curvature_max": 1.3313664134603558,
+          "hausdorff": 0.8821732595260119,
+          "mean_dist_true": 0.13393742284580773,
+          "rmse_true": 0.17211370981206522
+        },
+        "notes": "noise=0.05,s=5.0"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:21",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Ellipse",
+        "method": "Interpolation",
+        "metrics": {
+          "rmse_samples": 0.00925904668068572,
+          "max_dev_samples": 0.02412191453108955,
+          "mean_dist_samples": 0.006959319392301539,
+          "smoothness_energy": 0.01761539169650827,
+          "curvature_std": 15.544882915093265,
+          "curvature_max": 163.65904509168374,
+          "hausdorff": 0.7069939286035831,
+          "mean_dist_true": 0.1762073979236182,
+          "rmse_true": 0.15066534081700494
+        },
+        "notes": "noise=0.1"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:21",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Ellipse",
+        "method": "Smooth_Fitting",
+        "metrics": {
+          "rmse_samples": 0.3215863047096426,
+          "max_dev_samples": 0.7282168029580837,
+          "mean_dist_samples": 0.24741296138280774,
+          "smoothness_energy": 2.0813916442979256e-05,
+          "curvature_std": 0.49677870128598145,
+          "curvature_max": 2.093334772874251,
+          "hausdorff": 0.7946619156533343,
+          "mean_dist_true": 0.20025825068661937,
+          "rmse_true": 0.23477715252922388
+        },
+        "notes": "noise=0.1,s=10.0"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:21",
+        "experiment": "Exp3_Sampling_Density",
+        "curve": "Heart",
+        "method": "n=10",
+        "metrics": {
+          "rmse_samples": 0.06824828320047557,
+          "max_dev_samples": 0.09624292596002008,
+          "mean_dist_samples": 0.06060174132492624,
+          "smoothness_energy": 0.02173309918819564,
+          "curvature_std": 0.33271758978354765,
+          "curvature_max": 3.2037441141856906,
+          "hausdorff": 0.7830548473288754,
+          "mean_dist_true": 0.3399105990709997,
+          "rmse_true": 0.4072337547960488
+        },
+        "notes": "弦长参数化,三次样条"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:21",
+        "experiment": "Exp3_Sampling_Density",
+        "curve": "Heart",
+        "method": "n=20",
+        "metrics": {
+          "rmse_samples": 0.0752850210192628,
+          "max_dev_samples": 0.10206599076875408,
+          "mean_dist_samples": 0.06751744657462708,
+          "smoothness_energy": 0.06386223265877006,
+          "curvature_std": 0.9492443265562119,
+          "curvature_max": 13.87946912858682,
+          "hausdorff": 0.2404857188239907,
+          "mean_dist_true": 0.09236000374745276,
+          "rmse_true": 0.10588419650892097
+        },
+        "notes": "弦长参数化,三次样条"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:21",
+        "experiment": "Exp3_Sampling_Density",
+        "curve": "Heart",
+        "method": "n=40",
+        "metrics": {
+          "rmse_samples": 0.06506279339198615,
+          "max_dev_samples": 0.12490204948211296,
+          "mean_dist_samples": 0.05379406017375732,
+          "smoothness_energy": 0.17574619348590623,
+          "curvature_std": 0.24542619073232988,
+          "curvature_max": 3.80993280406725,
+          "hausdorff": 0.14630507494428058,
+          "mean_dist_true": 0.05547368412730579,
+          "rmse_true": 0.060478534243213845
+        },
+        "notes": "弦长参数化,三次样条"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:21",
+        "experiment": "Exp3_Sampling_Density",
+        "curve": "Heart",
+        "method": "n=80",
+        "metrics": {
+          "rmse_samples": 0.06274857454367187,
+          "max_dev_samples": 0.10478305786334985,
+          "mean_dist_samples": 0.05516561110587087,
+          "smoothness_energy": 0.10568999518539332,
+          "curvature_std": 0.18222288923826024,
+          "curvature_max": 2.7965717442750915,
+          "hausdorff": 0.1442636898737801,
+          "mean_dist_true": 0.054135123632192826,
+          "rmse_true": 0.05900279748492228
+        },
+        "notes": "弦长参数化,三次样条"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:27",
+        "experiment": "Exp7_Irregular_Shapes",
+        "curve": "Random_Polygon",
+        "method": "Chord_CubicSpline",
+        "metrics": {
+          "rmse_samples": 0.01945861362988089,
+          "max_dev_samples": 0.034060705947348,
+          "mean_dist_samples": 0.01648883606966099,
+          "smoothness_energy": 0.004750192858725903,
+          "curvature_std": 0.815075990035104,
+          "curvature_max": 5.680238063626894,
+          "hausdorff": 9.622953291118327,
+          "mean_dist_true": 2.999206025878701,
+          "rmse_true": 1.9827720235475566
+        },
+        "notes": "不规则图形,n=40"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:27",
+        "experiment": "Exp7_Irregular_Shapes",
+        "curve": "Random_Blob",
+        "method": "Chord_CubicSpline",
+        "metrics": {
+          "rmse_samples": 0.017038025635050295,
+          "max_dev_samples": 0.03328077180636149,
+          "mean_dist_samples": 0.01400070620434839,
+          "smoothness_energy": 0.0009252641625413114,
+          "curvature_std": 0.15952960508347086,
+          "curvature_max": 0.7875103367244087,
+          "hausdorff": 0.9332308003337977,
+          "mean_dist_true": 0.3526166859665376,
+          "rmse_true": 0.4284201436948965
+        },
+        "notes": "不规则图形,n=50"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:27",
+        "experiment": "Exp7_Irregular_Shapes",
+        "curve": "Perturbed_Circle",
+        "method": "Chord_CubicSpline",
+        "metrics": {
+          "rmse_samples": 0.02714284982992335,
+          "max_dev_samples": 0.04255661599436765,
+          "mean_dist_samples": 0.023733173215077695,
+          "smoothness_energy": 0.0007164818305859411,
+          "curvature_std": 0.0435802740690632,
+          "curvature_max": 0.4520063244290596,
+          "hausdorff": 2.731787470187897,
+          "mean_dist_true": 1.3974616982795938,
+          "rmse_true": 1.5670014975973372
+        },
+        "notes": "不规则图形,n=50"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:29",
+        "experiment": "Exp9_Interpolation_Methods",
+        "curve": "Clean_Data",
+        "method": "CubicSpline_Interp",
+        "metrics": {
+          "rmse_samples": 0.06506279339198615,
+          "max_dev_samples": 0.12490204948211296,
+          "mean_dist_samples": 0.05379406017375732,
+          "smoothness_energy": 0.17574619348590623,
+          "curvature_std": 0.24542619073232988,
+          "curvature_max": 3.80993280406725,
+          "hausdorff": 0.14630507494428058,
+          "mean_dist_true": 0.05547368412730579,
+          "rmse_true": 0.060478534243213845
+        },
+        "notes": "Heart,noise=0.0"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:29",
+        "experiment": "Exp9_Interpolation_Methods",
+        "curve": "Clean_Data",
+        "method": "BSpline_Interp_s0",
+        "metrics": {
+          "rmse_samples": 0.06568567346983586,
+          "max_dev_samples": 0.1479213697031376,
+          "mean_dist_samples": 0.05445987215529404,
+          "smoothness_energy": 0.16317819634724118,
+          "curvature_std": 4.319347251880085,
+          "curvature_max": 96.38721371870135,
+          "hausdorff": 0.1738718420499745,
+          "mean_dist_true": 0.05670894008483642,
+          "rmse_true": 0.06271223337872533
+        },
+        "notes": "Heart,noise=0.0,s=0"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:29",
+        "experiment": "Exp9_Interpolation_Methods",
+        "curve": "Clean_Data",
+        "method": "BSpline_Fit",
+        "metrics": {
+          "rmse_samples": 0.07559831013818227,
+          "max_dev_samples": 0.1539871728778797,
+          "mean_dist_samples": 0.06855935209065758,
+          "smoothness_energy": 0.0735946770874744,
+          "curvature_std": 4.2159273902295915,
+          "curvature_max": 90.1530005969195,
+          "hausdorff": 0.1726169625542627,
+          "mean_dist_true": 0.06531632491984546,
+          "rmse_true": 0.06940912375146838
+        },
+        "notes": "Heart,noise=0.0,s=0.1"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:29",
+        "experiment": "Exp9_Interpolation_Methods",
+        "curve": "Clean_Data",
+        "method": "UnivariateSpline_Fit",
+        "metrics": {
+          "rmse_samples": 0.08249841407692704,
+          "max_dev_samples": 0.1276144243115611,
+          "mean_dist_samples": 0.0767512712689973,
+          "smoothness_energy": 0.05584324765858003,
+          "curvature_std": 0.8126096461761939,
+          "curvature_max": 16.954311585411048,
+          "hausdorff": 0.16019905830133277,
+          "mean_dist_true": 0.0706393370266951,
+          "rmse_true": 0.07413439573069776
+        },
+        "notes": "Heart,noise=0.0,s=0.1"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:32",
+        "experiment": "Exp9_Interpolation_Methods",
+        "curve": "Noisy_Data_2%",
+        "method": "CubicSpline_Interp",
+        "metrics": {
+          "rmse_samples": 0.06917564572351133,
+          "max_dev_samples": 0.13118758532810243,
+          "mean_dist_samples": 0.05879341387464272,
+          "smoothness_energy": 0.48894439407708545,
+          "curvature_std": 2.765681611144069,
+          "curvature_max": 52.20136893095499,
+          "hausdorff": 1.4182363404425702,
+          "mean_dist_true": 0.4021543611091139,
+          "rmse_true": 0.4675185274924215
+        },
+        "notes": "Heart,noise=0.02"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:32",
+        "experiment": "Exp9_Interpolation_Methods",
+        "curve": "Noisy_Data_2%",
+        "method": "BSpline_Interp_s0",
+        "metrics": {
+          "rmse_samples": 0.13784705236939668,
+          "max_dev_samples": 0.7605807777792356,
+          "mean_dist_samples": 0.07522769555690062,
+          "smoothness_energy": 0.3480567319186342,
+          "curvature_std": 4.57339826567891,
+          "curvature_max": 101.06039165093993,
+          "hausdorff": 1.4178373289949908,
+          "mean_dist_true": 0.41430119150966016,
+          "rmse_true": 0.47953554460044484
+        },
+        "notes": "Heart,noise=0.02,s=0"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:32",
+        "experiment": "Exp9_Interpolation_Methods",
+        "curve": "Noisy_Data_2%",
+        "method": "BSpline_Fit",
+        "metrics": {
+          "rmse_samples": 0.21460547045647363,
+          "max_dev_samples": 0.963550939514198,
+          "mean_dist_samples": 0.1465748970376543,
+          "smoothness_energy": 0.18627496915390002,
+          "curvature_std": 4.08539982501835,
+          "curvature_max": 88.40512499038117,
+          "hausdorff": 1.4128855561638254,
+          "mean_dist_true": 0.4308216467969893,
+          "rmse_true": 0.504683533020816
+        },
+        "notes": "Heart,noise=0.02,s=1.0"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:32",
+        "experiment": "Exp9_Interpolation_Methods",
+        "curve": "Noisy_Data_2%",
+        "method": "UnivariateSpline_Fit",
+        "metrics": {
+          "rmse_samples": 0.29086382808451716,
+          "max_dev_samples": 0.5262739358097643,
+          "mean_dist_samples": 0.2633152510141373,
+          "smoothness_energy": 0.12457519782034694,
+          "curvature_std": 2.699754898506807,
+          "curvature_max": 48.14714397555213,
+          "hausdorff": 1.053154811843746,
+          "mean_dist_true": 0.3856680040454509,
+          "rmse_true": 0.4407330909269986
+        },
+        "notes": "Heart,noise=0.02,s=2.0"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:34",
+        "experiment": "Exp9_Interpolation_Methods",
+        "curve": "Noisy_Data_5%",
+        "method": "CubicSpline_Interp",
+        "metrics": {
+          "rmse_samples": 0.08305603203193898,
+          "max_dev_samples": 0.17985911278927946,
+          "mean_dist_samples": 0.0653126646804855,
+          "smoothness_energy": 0.8526800696020882,
+          "curvature_std": 3.647221013551337,
+          "curvature_max": 69.68711161299062,
+          "hausdorff": 3.73658294588317,
+          "mean_dist_true": 1.0532172893592664,
+          "rmse_true": 1.1389708067536861
+        },
+        "notes": "Heart,noise=0.05"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:34",
+        "experiment": "Exp9_Interpolation_Methods",
+        "curve": "Noisy_Data_5%",
+        "method": "BSpline_Interp_s0",
+        "metrics": {
+          "rmse_samples": 0.4027061112669636,
+          "max_dev_samples": 2.505935003791055,
+          "mean_dist_samples": 0.12301494110381594,
+          "smoothness_energy": 0.6893745310540818,
+          "curvature_std": 2.0038638798907007,
+          "curvature_max": 32.41347460573842,
+          "hausdorff": 3.7399923312887995,
+          "mean_dist_true": 1.060122991441394,
+          "rmse_true": 1.1638483470685115
+        },
+        "notes": "Heart,noise=0.05,s=0"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:34",
+        "experiment": "Exp9_Interpolation_Methods",
+        "curve": "Noisy_Data_5%",
+        "method": "BSpline_Fit",
+        "metrics": {
+          "rmse_samples": 0.4689408224674418,
+          "max_dev_samples": 2.5918472939782213,
+          "mean_dist_samples": 0.24359572905807592,
+          "smoothness_energy": 0.34373330038065225,
+          "curvature_std": 2.7949219784613297,
+          "curvature_max": 41.93326400865222,
+          "hausdorff": 3.4720284471463176,
+          "mean_dist_true": 1.0504332904880858,
+          "rmse_true": 1.170372359418947
+        },
+        "notes": "Heart,noise=0.05,s=2.5"
+      },
+      {
+        "timestamp": "2026-04-26 20:23:34",
+        "experiment": "Exp9_Interpolation_Methods",
+        "curve": "Noisy_Data_5%",
+        "method": "UnivariateSpline_Fit",
+        "metrics": {
+          "rmse_samples": 0.4119990838571617,
+          "max_dev_samples": 0.9491635677238199,
+          "mean_dist_samples": 0.35411722611023994,
+          "smoothness_energy": 0.28044196403659105,
+          "curvature_std": 3.800335969841792,
+          "curvature_max": 66.29793081368533,
+          "hausdorff": 3.330459832991249,
+          "mean_dist_true": 1.0165577103107073,
+          "rmse_true": 1.1112866487505546
+        },
+        "notes": "Heart,noise=0.05,s=5.0"
+      }
+    ]
+  },
+  {
+    "session_start": "2026-05-03 23:12:33",
+    "session_end": "2026-05-03 23:12:44",
+    "total_experiments": 33,
+    "results": [
+      {
+        "timestamp": "2026-05-03 23:12:33",
+        "experiment": "Exp1_Parameterization",
+        "curve": "Circle",
+        "method": "Uniform",
+        "metrics": {
+          "rmse_samples": 0.003638862369211757,
+          "max_dev_samples": 0.006295699179221757,
+          "mean_dist_samples": 0.0031478520866211135,
+          "smoothness_energy": 1.2517808236339474e-05,
+          "curvature_std": 0.0016185868261858675,
+          "curvature_max": 1.0032942292219535,
+          "hausdorff": 0.006295699179221757,
+          "mean_dist_true": 0.003141589914537106,
+          "rmse_true": 0.0036348819361458314
+        },
+        "notes": "均匀采样,n=30"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:33",
+        "experiment": "Exp1_Parameterization",
+        "curve": "Circle",
+        "method": "Chord",
+        "metrics": {
+          "rmse_samples": 0.0036388623692116774,
+          "max_dev_samples": 0.006295699179221043,
+          "mean_dist_samples": 0.003147852086621096,
+          "smoothness_energy": 1.251780823633951e-05,
+          "curvature_std": 0.0016185868261878887,
+          "curvature_max": 1.0032942292215554,
+          "hausdorff": 0.006295699179221043,
+          "mean_dist_true": 0.0031415899145365083,
+          "rmse_true": 0.003634881936145317
+        },
+        "notes": "均匀采样,n=30"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:33",
+        "experiment": "Exp1_Parameterization",
+        "curve": "Circle",
+        "method": "Centripetal",
+        "metrics": {
+          "rmse_samples": 0.0036388623692117632,
+          "max_dev_samples": 0.006295699179222076,
+          "mean_dist_samples": 0.003147852086621149,
+          "smoothness_energy": 1.2517808236339545e-05,
+          "curvature_std": 0.0016185868261988463,
+          "curvature_max": 1.0032942292219535,
+          "hausdorff": 0.006295699179222076,
+          "mean_dist_true": 0.003141589914536901,
+          "rmse_true": 0.003634881936145674
+        },
+        "notes": "均匀采样,n=30"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:34",
+        "experiment": "Exp1_Parameterization",
+        "curve": "Heart",
+        "method": "Uniform",
+        "metrics": {
+          "rmse_samples": 0.0597069236494387,
+          "max_dev_samples": 0.10711668973277198,
+          "mean_dist_samples": 0.05102358420932118,
+          "smoothness_energy": 0.016188884775899443,
+          "curvature_std": 1.0292346357871263,
+          "curvature_max": 16.155632606940937,
+          "hausdorff": 0.1080069849198371,
+          "mean_dist_true": 0.05202534722985515,
+          "rmse_true": 0.06217674814040669
+        },
+        "notes": "均匀采样,n=40"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:34",
+        "experiment": "Exp1_Parameterization",
+        "curve": "Heart",
+        "method": "Chord",
+        "metrics": {
+          "rmse_samples": 0.06506279339198615,
+          "max_dev_samples": 0.12490204948211296,
+          "mean_dist_samples": 0.05379406017375732,
+          "smoothness_energy": 0.17574619348590623,
+          "curvature_std": 0.24542619073232988,
+          "curvature_max": 3.80993280406725,
+          "hausdorff": 0.14630507494428058,
+          "mean_dist_true": 0.05547368412730579,
+          "rmse_true": 0.060478534243213845
+        },
+        "notes": "均匀采样,n=40"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:34",
+        "experiment": "Exp1_Parameterization",
+        "curve": "Heart",
+        "method": "Centripetal",
+        "metrics": {
+          "rmse_samples": 0.06150611147419182,
+          "max_dev_samples": 0.10709593227729321,
+          "mean_dist_samples": 0.0532443495384413,
+          "smoothness_energy": 0.023127421553997135,
+          "curvature_std": 1.8281102254158867,
+          "curvature_max": 28.831256865663757,
+          "hausdorff": 0.1518796411016077,
+          "mean_dist_true": 0.052621757751887606,
+          "rmse_true": 0.0573050521451185
+        },
+        "notes": "均匀采样,n=40"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:35",
+        "experiment": "Exp1_Parameterization",
+        "curve": "Star",
+        "method": "Uniform",
+        "metrics": {
+          "rmse_samples": 0.008531046149222964,
+          "max_dev_samples": 0.01672950858650711,
+          "mean_dist_samples": 0.007171957477799332,
+          "smoothness_energy": 0.001239739998504814,
+          "curvature_std": 2.4794398655378824,
+          "curvature_max": 11.80180832296937,
+          "hausdorff": 0.016857796554191836,
+          "mean_dist_true": 0.00717877262242463,
+          "rmse_true": 0.008539309330866883
+        },
+        "notes": "均匀采样,n=50"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:35",
+        "experiment": "Exp1_Parameterization",
+        "curve": "Star",
+        "method": "Chord",
+        "metrics": {
+          "rmse_samples": 0.008253628596747003,
+          "max_dev_samples": 0.01456412372225171,
+          "mean_dist_samples": 0.007112711046875598,
+          "smoothness_energy": 0.0019234103969288491,
+          "curvature_std": 1.9365027456020936,
+          "curvature_max": 12.084910574056448,
+          "hausdorff": 0.01784860623424114,
+          "mean_dist_true": 0.007490556099743849,
+          "rmse_true": 0.008335196534830221
+        },
+        "notes": "均匀采样,n=50"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:35",
+        "experiment": "Exp1_Parameterization",
+        "curve": "Star",
+        "method": "Centripetal",
+        "metrics": {
+          "rmse_samples": 0.00814280089577037,
+          "max_dev_samples": 0.01435083451431755,
+          "mean_dist_samples": 0.006958584457281456,
+          "smoothness_energy": 0.0012535643403105202,
+          "curvature_std": 2.1907018173259245,
+          "curvature_max": 12.176260755783577,
+          "hausdorff": 0.018101438350757077,
+          "mean_dist_true": 0.007235079335158996,
+          "rmse_true": 0.008203162892378666
+        },
+        "notes": "均匀采样,n=50"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:36",
+        "experiment": "Exp1_Parameterization",
+        "curve": "S-Curve",
+        "method": "Uniform",
+        "metrics": {
+          "rmse_samples": 0.0025930524588685315,
+          "max_dev_samples": 0.005288154662850117,
+          "mean_dist_samples": 0.0019969220749887447,
+          "smoothness_energy": 6.271560191725391e-06,
+          "curvature_std": 8.782758839651756,
+          "curvature_max": 39.42793244978171,
+          "hausdorff": 1.3730697603644981e-05,
+          "mean_dist_true": 2.6799358841457813e-06,
+          "rmse_true": 3.757138436889733e-06
+        },
+        "notes": "均匀采样,n=30"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:36",
+        "experiment": "Exp1_Parameterization",
+        "curve": "S-Curve",
+        "method": "Chord",
+        "metrics": {
+          "rmse_samples": 0.0020444501376164284,
+          "max_dev_samples": 0.003955547032116232,
+          "mean_dist_samples": 0.0016171122332774652,
+          "smoothness_energy": 5.9298829665897304e-05,
+          "curvature_std": 4.828789045096747,
+          "curvature_max": 38.88925443096079,
+          "hausdorff": 0.0061925576555966234,
+          "mean_dist_true": 0.002478948339763575,
+          "rmse_true": 0.0026145673632592377
+        },
+        "notes": "均匀采样,n=30"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:36",
+        "experiment": "Exp1_Parameterization",
+        "curve": "S-Curve",
+        "method": "Centripetal",
+        "metrics": {
+          "rmse_samples": 0.0020954820610690544,
+          "max_dev_samples": 0.00414763980549243,
+          "mean_dist_samples": 0.0016940203521482401,
+          "smoothness_energy": 1.0666248364072238e-05,
+          "curvature_std": 6.523110192374529,
+          "curvature_max": 39.50395432711126,
+          "hausdorff": 0.00618353276467702,
+          "mean_dist_true": 0.0020495742865354943,
+          "rmse_true": 0.002258780742883898
+        },
+        "notes": "均匀采样,n=30"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:37",
+        "experiment": "Exp1_Parameterization_Nonuniform",
+        "curve": "Heart",
+        "method": "Uniform",
+        "metrics": {
+          "rmse_samples": 0.07101194410354923,
+          "max_dev_samples": 0.15576979357512008,
+          "mean_dist_samples": 0.05497434221380035,
+          "smoothness_energy": 0.26137797545348995,
+          "curvature_std": 18.095823726274283,
+          "curvature_max": 273.4745886502666,
+          "hausdorff": 1.4779737366560695,
+          "mean_dist_true": 0.3043059993501953,
+          "rmse_true": 0.4539564711405874
+        },
+        "notes": "非均匀采样,n=25"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:37",
+        "experiment": "Exp1_Parameterization_Nonuniform",
+        "curve": "Heart",
+        "method": "Chord",
+        "metrics": {
+          "rmse_samples": 0.0493509205305201,
+          "max_dev_samples": 0.1031382294558212,
+          "mean_dist_samples": 0.039316861374111924,
+          "smoothness_energy": 0.050660775105607514,
+          "curvature_std": 0.9894864596434267,
+          "curvature_max": 19.104777416442165,
+          "hausdorff": 0.725959112745173,
+          "mean_dist_true": 0.12260158881600836,
+          "rmse_true": 0.19352933230818578
+        },
+        "notes": "非均匀采样,n=25"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:37",
+        "experiment": "Exp1_Parameterization_Nonuniform",
+        "curve": "Heart",
+        "method": "Centripetal",
+        "metrics": {
+          "rmse_samples": 0.03889874322550663,
+          "max_dev_samples": 0.08264232703602685,
+          "mean_dist_samples": 0.0290285473685411,
+          "smoothness_energy": 0.0614417514512193,
+          "curvature_std": 1.4200676823652114,
+          "curvature_max": 26.942462258430968,
+          "hausdorff": 1.1317577896393074,
+          "mean_dist_true": 0.2168670206877759,
+          "rmse_true": 0.3286762735474833
+        },
+        "notes": "非均匀采样,n=25"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:39",
+        "experiment": "Exp1_Parameterization_Nonuniform",
+        "curve": "Star",
+        "method": "Uniform",
+        "metrics": {
+          "rmse_samples": 0.009416400108995063,
+          "max_dev_samples": 0.02661542353066353,
+          "mean_dist_samples": 0.0073075937768599854,
+          "smoothness_energy": 0.003717047405503558,
+          "curvature_std": 250.1197537142202,
+          "curvature_max": 4988.427953520317,
+          "hausdorff": 0.3309368192392193,
+          "mean_dist_true": 0.06711531830373117,
+          "rmse_true": 0.11824933214673043
+        },
+        "notes": "非均匀采样,n=25"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:39",
+        "experiment": "Exp1_Parameterization_Nonuniform",
+        "curve": "Star",
+        "method": "Chord",
+        "metrics": {
+          "rmse_samples": 0.0064284888318905786,
+          "max_dev_samples": 0.014366874946386075,
+          "mean_dist_samples": 0.005190608012805541,
+          "smoothness_energy": 0.0009480439186654929,
+          "curvature_std": 1.7354834494076519,
+          "curvature_max": 12.278379177690462,
+          "hausdorff": 0.30005261920805865,
+          "mean_dist_true": 0.05224347992373257,
+          "rmse_true": 0.09470908695595831
+        },
+        "notes": "非均匀采样,n=25"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:39",
+        "experiment": "Exp1_Parameterization_Nonuniform",
+        "curve": "Star",
+        "method": "Centripetal",
+        "metrics": {
+          "rmse_samples": 0.006064138799725897,
+          "max_dev_samples": 0.011571959469392507,
+          "mean_dist_samples": 0.005137029398986487,
+          "smoothness_energy": 0.0013290446110965296,
+          "curvature_std": 4.048560391593272,
+          "curvature_max": 28.135949906115037,
+          "hausdorff": 0.3100635982133829,
+          "mean_dist_true": 0.05592368689668094,
+          "rmse_true": 0.10419315760001932
+        },
+        "notes": "非均匀采样,n=25"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:40",
+        "experiment": "Exp1_Parameterization_Nonuniform",
+        "curve": "Random_Blob",
+        "method": "Uniform",
+        "metrics": {
+          "rmse_samples": 0.023472127265451986,
+          "max_dev_samples": 0.06306278907433169,
+          "mean_dist_samples": 0.016177850644926182,
+          "smoothness_energy": 0.015919646757263834,
+          "curvature_std": 154.71442885514097,
+          "curvature_max": 3424.639490797948,
+          "hausdorff": 0.7146152492262874,
+          "mean_dist_true": 0.10025968569142188,
+          "rmse_true": 0.1946320190067967
+        },
+        "notes": "非均匀采样,n=25"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:40",
+        "experiment": "Exp1_Parameterization_Nonuniform",
+        "curve": "Random_Blob",
+        "method": "Chord",
+        "metrics": {
+          "rmse_samples": 0.01592539966262671,
+          "max_dev_samples": 0.032073226907999575,
+          "mean_dist_samples": 0.013297262588772151,
+          "smoothness_energy": 0.0007149302946541924,
+          "curvature_std": 0.15668327524487777,
+          "curvature_max": 0.799807907159568,
+          "hausdorff": 0.19952861753412474,
+          "mean_dist_true": 0.041194557192432465,
+          "rmse_true": 0.06060179160807929
+        },
+        "notes": "非均匀采样,n=25"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:40",
+        "experiment": "Exp1_Parameterization_Nonuniform",
+        "curve": "Random_Blob",
+        "method": "Centripetal",
+        "metrics": {
+          "rmse_samples": 0.015004925389240632,
+          "max_dev_samples": 0.031125187211316664,
+          "mean_dist_samples": 0.012037952104069011,
+          "smoothness_energy": 0.003773751997853416,
+          "curvature_std": 0.5868620536881509,
+          "curvature_max": 6.259107273542839,
+          "hausdorff": 0.5676017965909504,
+          "mean_dist_true": 0.07904185739359171,
+          "rmse_true": 0.1494976876229246
+        },
+        "notes": "非均匀采样,n=25"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:41",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Heart",
+        "method": "Interpolation",
+        "metrics": {
+          "rmse_samples": 0.05899152167765246,
+          "max_dev_samples": 0.1128132686453595,
+          "mean_dist_samples": 0.048124649229898564,
+          "smoothness_energy": 0.3303630851239371,
+          "curvature_std": 1.7790820956720483,
+          "curvature_max": 35.77331521771681,
+          "hausdorff": 1.3694505969923538,
+          "mean_dist_true": 0.40610996671719135,
+          "rmse_true": 0.46681341314556596
+        },
+        "notes": "noise=0.02"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:41",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Heart",
+        "method": "Smooth_Fitting",
+        "metrics": {
+          "rmse_samples": 0.21833379630201794,
+          "max_dev_samples": 0.6120575735838881,
+          "mean_dist_samples": 0.170170101058647,
+          "smoothness_energy": 0.2094261229299452,
+          "curvature_std": 0.8888196903808396,
+          "curvature_max": 10.091490612657674,
+          "hausdorff": 1.20880644490536,
+          "mean_dist_true": 0.3812050954635052,
+          "rmse_true": 0.4528573008132586
+        },
+        "notes": "noise=0.02,s=2.0"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:42",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Heart",
+        "method": "Interpolation",
+        "metrics": {
+          "rmse_samples": 0.08454732221051299,
+          "max_dev_samples": 0.16773575773607435,
+          "mean_dist_samples": 0.07013297324167064,
+          "smoothness_energy": 1.1911210978662004,
+          "curvature_std": 6.6432750876659,
+          "curvature_max": 124.21948996397312,
+          "hausdorff": 3.2489719796777616,
+          "mean_dist_true": 0.9493413797033179,
+          "rmse_true": 1.0174990137397109
+        },
+        "notes": "noise=0.05"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:42",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Heart",
+        "method": "Smooth_Fitting",
+        "metrics": {
+          "rmse_samples": 0.27860139737557305,
+          "max_dev_samples": 0.5999250846431856,
+          "mean_dist_samples": 0.22395440353428614,
+          "smoothness_energy": 0.5358671921913587,
+          "curvature_std": 9.075458830150131,
+          "curvature_max": 167.00289609197176,
+          "hausdorff": 3.207201596560981,
+          "mean_dist_true": 0.9084253802981743,
+          "rmse_true": 0.9744150720842352
+        },
+        "notes": "noise=0.05,s=5.0"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:42",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Heart",
+        "method": "Interpolation",
+        "metrics": {
+          "rmse_samples": 0.12190796451359232,
+          "max_dev_samples": 0.25288692019831954,
+          "mean_dist_samples": 0.08791398607391104,
+          "smoothness_energy": 5.046494303627577,
+          "curvature_std": 7.463353414470255,
+          "curvature_max": 106.37686002563197,
+          "hausdorff": 6.311907627950434,
+          "mean_dist_true": 1.5687137073008257,
+          "rmse_true": 1.172619602024594
+        },
+        "notes": "noise=0.1"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:42",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Heart",
+        "method": "Smooth_Fitting",
+        "metrics": {
+          "rmse_samples": 0.42263146866478907,
+          "max_dev_samples": 1.1879341076527266,
+          "mean_dist_samples": 0.3167272067145494,
+          "smoothness_energy": 3.164169780227679,
+          "curvature_std": 76.53943131530146,
+          "curvature_max": 1707.8481149451763,
+          "hausdorff": 6.262996219444432,
+          "mean_dist_true": 1.492203509749771,
+          "rmse_true": 1.1565000266168497
+        },
+        "notes": "noise=0.1,s=10.0"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:43",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Ellipse",
+        "method": "Interpolation",
+        "metrics": {
+          "rmse_samples": 0.006612492042739437,
+          "max_dev_samples": 0.00983897833327821,
+          "mean_dist_samples": 0.005650298200486009,
+          "smoothness_energy": 0.00030500512753305065,
+          "curvature_std": 1.674643158825274,
+          "curvature_max": 14.036265117935194,
+          "hausdorff": 0.11478235825886308,
+          "mean_dist_true": 0.0347036842052791,
+          "rmse_true": 0.04125423460495406
+        },
+        "notes": "noise=0.02"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:43",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Ellipse",
+        "method": "Smooth_Fitting",
+        "metrics": {
+          "rmse_samples": 0.06414920620116316,
+          "max_dev_samples": 0.13111533344731585,
+          "mean_dist_samples": 0.05127152053875455,
+          "smoothness_energy": 3.322755867470939e-05,
+          "curvature_std": 0.5143563405210981,
+          "curvature_max": 2.200358378997,
+          "hausdorff": 0.08118478818230306,
+          "mean_dist_true": 0.03605364213893514,
+          "rmse_true": 0.041650891542571816
+        },
+        "notes": "noise=0.02,s=0.2"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:43",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Ellipse",
+        "method": "Interpolation",
+        "metrics": {
+          "rmse_samples": 0.007207025179700774,
+          "max_dev_samples": 0.014985428469750213,
+          "mean_dist_samples": 0.005918900995039385,
+          "smoothness_energy": 0.00494377738281963,
+          "curvature_std": 17.084747369531073,
+          "curvature_max": 181.27067727324507,
+          "hausdorff": 0.364244718476659,
+          "mean_dist_true": 0.09761691785912888,
+          "rmse_true": 0.0909287594221817
+        },
+        "notes": "noise=0.05"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:43",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Ellipse",
+        "method": "Smooth_Fitting",
+        "metrics": {
+          "rmse_samples": 0.1116336266362096,
+          "max_dev_samples": 0.21497102618879696,
+          "mean_dist_samples": 0.09200281129450644,
+          "smoothness_energy": 8.1147912249686e-05,
+          "curvature_std": 0.8301235105299803,
+          "curvature_max": 3.542527988007044,
+          "hausdorff": 0.23700580079416708,
+          "mean_dist_true": 0.07606694902238664,
+          "rmse_true": 0.09753388438600008
+        },
+        "notes": "noise=0.05,s=0.5"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:43",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Ellipse",
+        "method": "Interpolation",
+        "metrics": {
+          "rmse_samples": 0.00925904668068572,
+          "max_dev_samples": 0.02412191453108955,
+          "mean_dist_samples": 0.006959319392301539,
+          "smoothness_energy": 0.01761539169650827,
+          "curvature_std": 15.544882915093265,
+          "curvature_max": 163.65904509168374,
+          "hausdorff": 0.7069939286035831,
+          "mean_dist_true": 0.1762073979236182,
+          "rmse_true": 0.15066534081700494
+        },
+        "notes": "noise=0.1"
+      },
+      {
+        "timestamp": "2026-05-03 23:12:43",
+        "experiment": "Exp2_Noise_Robustness",
+        "curve": "Ellipse",
+        "method": "Smooth_Fitting",
+        "metrics": {
+          "rmse_samples": 0.15444667394998346,
+          "max_dev_samples": 0.25511444579526255,
+          "mean_dist_samples": 0.13634287932318317,
+          "smoothness_energy": 0.002967708330467199,
+          "curvature_std": 57.75841064243403,
+          "curvature_max": 950.7851123769041,
+          "hausdorff": 0.6252926303496152,
+          "mean_dist_true": 0.11070167544002368,
+          "rmse_true": 0.08755595368536373
+        },
+        "notes": "noise=0.1,s=1.0"
+      }
+    ]
+  }
+]
